@@ -7,6 +7,6 @@ month = 0  # количество месяцев, которое можно пр
 while money_capital > (spend-salary):
     month+=1
     money_capital -= spend-salary
-    spend*=1.05
+    spend*=(1+increase)
 
 print(month)
